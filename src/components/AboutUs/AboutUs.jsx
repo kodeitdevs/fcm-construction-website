@@ -53,7 +53,7 @@ export class AboutUs extends Component {
         <Typography variant="subtitle1" sx={{mb: 8}}>
           Meet the people behind our magical product
         </Typography>
-        <Stack direction="column" spacing={10} sx={{mb: 15}}>
+        <Stack direction="column" spacing={10} sx={{mb: 15, ml: 10}}>
           <Grid container>
             <Grid sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mr: 10 }}>
               <Avatar alt="Remy Sharp" src="assets/avatar.jpg" sx={{ width: 160, height: 160, mb: 2 }} />
