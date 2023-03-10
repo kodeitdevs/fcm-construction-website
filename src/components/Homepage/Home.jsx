@@ -1,14 +1,7 @@
 import { Component } from "react";
 import "./Home.scss";
-import Button from "@mui/material/Button";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
-import Rating from "@mui/material/Rating";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import TextField from "@mui/material/TextField";
+import { CardContent, Card, Typography, Button , Paper, Rating, Box, TextField } from '@mui/material';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import SendIcon from '@mui/icons-material/Send';
 
 export class Home extends Component {

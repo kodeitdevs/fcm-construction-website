@@ -6,7 +6,7 @@ export class AboutUs extends Component {
     return (
       <Grid container justifyContent="space-around" alignItems="center" flexDirection="column">
         <Typography variant="h2" sx={{ fontWeight: "bold", mt: 4 }}> About Us</Typography>
-        <Typography variant="p" sx={{ mt: 3, mx: 70 }}>
+        <Typography variant="subtitle1" sx={{ mt: 3, mx: 70 }}>
           Get in touch with <b>FCM Trading & Services</b> today and take
           advantage of the groundbreaking solutions we offer for home services.
           Our optimization services provide a host of advantages, such as
@@ -20,14 +20,14 @@ export class AboutUs extends Component {
         </Box>
 
         <Typography variant="h4">Mission</Typography>
-        <Typography variant="p" sx={{ mt: 3, mb: 6, mx: 70 }}>
+        <Typography variant="subtitle1" sx={{ mt: 3, mb: 6, mx: 70 }}>
           At <b>FCM Trading & Services</b>, we specialize in home services that
           guarantee top-notch quality, safety, sustainability, and customer
           satisfaction.
         </Typography>
 
         <Typography variant="h4">Vision</Typography>
-        <Typography variant="p" sx={{ mt: 3, mx: 70 }}>
+        <Typography variant="subtitle1" sx={{ mt: 3, mx: 70 }}>
           Acknowledged as a company with remarkable skillfulness, reliability,
           and dedication towards forming lasting, proficient, and budget
           friendly services that fulfill the varying demands of our clients &
@@ -50,12 +50,12 @@ export class AboutUs extends Component {
         <Typography variant="h4" sx={{ fontWeight: "bold" }}>
           Team
         </Typography>
-        <Typography variant="subtitle1" sx={{mb: 8}}>
+        <Typography variant="h6" sx={{mb: 8}}>
           Meet the people behind our magical product
         </Typography>
         <Stack direction="column" spacing={10} sx={{mb: 15, ml: 10}}>
-          <Grid container>
-            <Grid sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mr: 10 }}>
+          <Grid container sx={{flexWrap: 'wrap'}}>
+            <Grid item sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mr: 10 }}>
               <Avatar alt="Remy Sharp" src="assets/avatar.jpg" sx={{ width: 160, height: 160, mb: 2 }} />
               <Typography variant="h6" sx={{ fontWeight: 'bold' }}>Florentino C. Mana-ay</Typography>
               <Typography variant="subtitle1">CEO</Typography>
